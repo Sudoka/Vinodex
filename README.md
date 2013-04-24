@@ -6,7 +6,7 @@ Running the server
     `virtualenv venv`
 
   Then, you should install the requirements for the project:
-    `pip install -R requirements.txt`
+    `pip install -r requirements.txt`
 
   Finally, you can run the server like so:
     `cd wine`
