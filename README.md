@@ -43,3 +43,14 @@ Finally, you can run the migrations:
 
     python wine/manage.py syncdb
     python wine/manage.py migrate wine
+
+Linting
+-------
+
+To lint your code:
+
+    ./lint
+
+**Note:** You may need to run this command to make this file executable:
+
+    chmod a+x lint
