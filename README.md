@@ -54,3 +54,16 @@ To lint your code:
 **Note:** You may need to run this command to make this file executable:
 
     chmod a+x lint
+    
+Testing
+-------
+
+You should test your code before sumbitting a pull request.
+
+To test your code, use the following command:
+
+    python manage.py test wine
+    
+    
+If you wish to add tests to the code, our tests are in the `tests` directory. You should
+add new tests whenever you implement new functionality.
