@@ -10,6 +10,20 @@ Then, you should install the requirements for the project:
 
     pip install -r requirements.txt
 
+You will also need to install the tesseract OCR library. On Mac OS X,
+this can be done like so:
+
+    brew install tesseract
+
+You will also need to install the zxing library. You should probably be able
+to install it this way (you may need to be logged in as root):
+
+    wget http://zxing.googlecode.com/files/ZXing-1.6.zip
+    unzip -d /opt/local/
+    cd /opt/local/zxing-1.6 
+    ant -f core/build.xml
+    ant -f javase/build.xml
+
 Finally, you can run the server like so:
 
     cd wine
