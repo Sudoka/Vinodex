@@ -58,6 +58,20 @@ Finally, you can run the migrations:
     python wine/manage.py syncdb
     python wine/manage.py migrate wine
 
+
+Populating the Database with sample data
+----------------------------------------
+
+If you want, you can populate your database with wines gathered from
+the wine.com API. This is necessary for Label and barcode recognition to work
+successfully. It will also be helpful for autocomplete. You can seed the database
+like so:
+
+    cd wine
+    python manage.py seed
+
+
+
 Linting
 -------
 
