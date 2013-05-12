@@ -5,6 +5,12 @@ You should run the server in a virtualenv. This can be done like so:
 
     pip install virtualenv
     virtualenv venv
+    
+Whenever you wish to work on the project, just cd into the directory that you ran the
+`virtualenv venv` command, and run
+    
+    source venv/bin/activiate
+    
 
 Then, you should install the requirements for the project:
 
@@ -71,17 +77,6 @@ like so:
     python manage.py seed
 
 
-
-Linting
--------
-
-To lint your code:
-
-    ./lint
-
-**Note:** You may need to run this command to make this file executable:
-
-    chmod a+x lint
     
 Testing
 -------
