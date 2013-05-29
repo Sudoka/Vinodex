@@ -9,7 +9,7 @@ You should run the server in a virtualenv. This can be done like so:
 Whenever you wish to work on the project, just cd into the directory that you ran the
 `virtualenv venv` command, and run
     
-    source venv/bin/activiate
+    source venv/bin/activate
     
 
 Then, you should install the requirements for the project:
